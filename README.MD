@@ -1,8 +1,8 @@
-# foxxy-backend-hello.g8
+# foxxy-fullstack.g8
 
-Giter8 template for helloworld application using foxxy
+Giter8 template for fullstack application using foxxy
 
 ## Usage
 ```
-mill init michalliss/foxxy-backend-hello.g8
+mill init michalliss/foxxy-fullstack.g8
 ```
