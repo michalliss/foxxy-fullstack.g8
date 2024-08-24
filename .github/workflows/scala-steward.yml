@@ -5,6 +5,7 @@ on:
 
 name: Scala Steward
 
+
 permissions:
   contents: write
   pull-requests: write
