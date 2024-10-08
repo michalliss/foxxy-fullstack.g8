@@ -1,5 +1,5 @@
 import $ivy.`io.chris-kipp::mill-giter8::0.2.7`
-import $ivy.`com.goyeau::mill-scalafix::0.4.1`
+import $ivy.`com.goyeau::mill-scalafix::0.4.2`
 import com.goyeau.mill.scalafix.ScalafixModule
 
 import io.kipp.mill.giter8.G8Module
