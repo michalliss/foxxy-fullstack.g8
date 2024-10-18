@@ -7,7 +7,7 @@ import scalajslib._
 import mill.scalajslib.api.ModuleKind
 
 object config {
-  val scalaVersion = "3.5.1"
+  val scalaVersion = "3.6.0"
 }
 
 trait AppScalaModule extends ScalaModule with ScalafixModule with ScalafmtModule {
