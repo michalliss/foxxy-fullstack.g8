@@ -25,7 +25,15 @@ object Steward extends ScalaModule {
     ivy"dev.zio::zio-logging:2.4.0",
     ivy"dev.zio::zio-logging-slf4j2-bridge:2.4.0",
     ivy"io.github.michalliss::foxxy-backend:0.0.7",
+    ivy"io.github.michalliss::foxxy-shared:0.0.7",
     ivy"io.github.michalliss::foxxy-repo:0.0.7",
     ivy"io.github.michalliss::foxxy-testing:0.0.7",
+  )
+}
+
+object StewardJS extends ScalaModule with ScalaJSModule {
+  def scalaVersion = "3.5.2"
+  def ivyDeps = Agg(
+    ivy"io.github.michalliss::foxxy-frontend::0.0.7",
   )
 }
