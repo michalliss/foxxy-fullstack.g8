@@ -46,7 +46,7 @@ object $name$ extends Module {
 
     def moduleDeps = Seq(shared.js)
     def ivyDeps    = Agg(
-      ivy"io.github.michalliss::foxxy-frontend::0.0.4"
+      ivy"io.github.michalliss::foxxy-frontend::0.0.7"
     )
   }
 
@@ -54,11 +54,11 @@ object $name$ extends Module {
     trait SharedModule extends AppScalaModule with PlatformScalaModule
 
     object jvm extends SharedModule {
-      def ivyDeps = Agg(ivy"io.github.michalliss::foxxy-shared:0.0.4")
+      def ivyDeps = Agg(ivy"io.github.michalliss::foxxy-shared:0.0.7")
     }
 
     object js extends SharedModule with AppScalaJSModule {
-      def ivyDeps = Agg(ivy"io.github.michalliss::foxxy-shared::0.0.4")
+      def ivyDeps = Agg(ivy"io.github.michalliss::foxxy-shared::0.0.7")
     }
   }
 
