@@ -19,9 +19,9 @@ object g8 extends G8Module {
 object Steward extends ScalaModule {
   def scalaVersion = "3.5.2"
   def ivyDeps = Agg(
-    ivy"dev.zio::zio-test:2.1.11",
-    ivy"dev.zio::zio-test-sbt:2.1.11",
-    ivy"dev.zio::zio-test-magnolia:2.1.11",
+    ivy"dev.zio::zio-test:2.1.12",
+    ivy"dev.zio::zio-test-sbt:2.1.12",
+    ivy"dev.zio::zio-test-magnolia:2.1.12",
     ivy"dev.zio::zio-logging:2.4.0",
     ivy"dev.zio::zio-logging-slf4j2-bridge:2.4.0",
     ivy"io.github.michalliss::foxxy-backend:0.0.7",
