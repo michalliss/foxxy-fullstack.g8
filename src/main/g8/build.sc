@@ -27,8 +27,8 @@ object $name$ extends Module {
     def ivyDeps    = Agg(
       ivy"io.github.michalliss::foxxy-backend:0.0.7",
       ivy"io.github.michalliss::foxxy-repo:0.0.7",
-      ivy"dev.zio::zio-logging:2.3.2",
-      ivy"dev.zio::zio-logging-slf4j2-bridge:2.3.2"
+      ivy"dev.zio::zio-logging:2.4.0",
+      ivy"dev.zio::zio-logging-slf4j2-bridge:2.4.0"
     )
 
     object test extends ScalaTests with TestModule.ZioTest {
